@@ -1,0 +1,35 @@
+
+
+body {
+    background-color: burlywood;
+}
+
+table{
+    border: 10px solid black;
+    margin: auto;
+}
+td, th{
+
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 5px solid black;
+    empty-cells: show;
+}
+
+#reinicia{
+    margin-left: 48.43%;
+    margin-top: 2%;
+}
+
+.branco{
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+}
+
+.x, .circulo{
+    width: 100px;
+    height: 100px;
+
+}

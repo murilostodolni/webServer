@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+
+    <!-- Meu css modificado-->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css"></link>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <title>Redes de Computadores 1</title>
+
+    <!--ESTILOS CSS PARA ALGUNS ELEMENTOS-->
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body class="bg-dark">
+
+    <nav id="topo" class="navbar fixed-top navbar-expand-lg navbar-light bg-gradient-light">
+
+        <div class="container justify-content-center">
+            <a class="navbar-brand h1 mb-0 text-dark justify-content-center" href="index.html"><img src="images/logoSite.png" width="40" height="40" alt="Home">
+                <a class="text-dark h3" href="index.html">RDC 1</a></a>
+        </div>
+    </nav>
+
+
+ <div id="main" class="container">
+            <!--CARDS DA PÁGINA-->
+            <div class="container my-5">
+                <h2 class="justify-content-center text-light mx-2 my-3">Acesso aos jogos</h2>
+                <div class="row">
+                    <div class="col justify-content-center">
+                            <div class="card">
+                                    <a href="Jogos/JogoMemoria/index.html" target="_blank"><img class="tumblr card-img-top" src="images/logoMemoryGame.png"></a>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Jogo das Lembranças!</h4>
+                                        <h6 class="card-subtitle mb-2 text-muted">Kotlin/JS</h6>
+                                        <p class="card-text">Relembre as melhores memórias!</p>
+                                    </div>
+                                </div>
+                    </div>
+
+                    <div class="col justify-content-center">
+                        <div class="card">
+                            <a href="Jogos/CampoMinado/campo-minado.html" target="_blank"><img class="tumblr card-img-top" src="Jogos/CampoMinado/img/logo.jpg"></a>
+                            <div class="card-body">
+                                <h4 class="card-title">Campo Minado</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Kotlin/JS</h6>
+                                <p class="card-text">Que tal um pouco de aventura?!</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col justify-content-center">
+                        <div class="card">
+                            <a href="Jogos/JogoVelha/jogo-velha.html" target="_blank"><img class="tumblr card-img-top" src="images/jogovelha.png"></a>
+                            <div class="card-body">
+                                <h4 class="card-title">Jogo da Velha</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Kotlin/JS</h6>
+                                <p class="card-text">Desafie um amigo com este clássico!</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="text-light my-2">
+                    <h5 class="card-title">O que é um servidor WEB?</h5>
+                    <button class="btn btn-outline-light" type="submit" data-toggle="modal" data-target="#siteModal">Acesse</button>
+            </div>
+    </div>
+
+    <!--Modal Caixa de aviso, diálogo-->
+
+    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Servidor WEB</h5>
+                   
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>x</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="container-fluid">
+
+                        <div class="row">
+                                <p> Um servidor web é composto por dois elementos fundamentais: seu hardware e software.
+                                    <br><br>
+                                    Referente ao hardware, um servidor web é um computador que armazena arquivos que compõem os sites (por exemplo, documentos HTML, imagens, folhas de estilo, e arquivos JavaScript) e os entrega para o dispositivo do usuário final. Está conectado a Internet e pode ser acessado através do seu nome de domínio (DNS), como por exemplo mozilla.org.
+                                    <br><br>
+                                    Referente ao software, um servidor web inclui diversos componentes que controlam como os usuários acessam os arquivos hospedados (armazenados para disponibilização), no mínimo um servidor HTTP. Um servidor HTTP é um software que compreende URLs (endereços web) e HTTP (o protocolo que seu navegador utiliza para visualizar páginas web.
+                                    <br><br>
+                                    Em um nível mais básico, o navegador fará uma requisição utilizando o protocolo HTTP sempre que necessitar de um um arquivo hospedado em um servidor web. Quando a requisição alcançar o servidor web correto (hardware), o servidor HTTP (software) enviará o documento requerido, também via HTTP. 
+                                    A figura abaixo ilustra o princípio de funcionamento de um servidor WEB.
+                                </p>
+                                <br><br>
+                                <img class="mx-2 justify-content-center" src="images/server.png" width="400" height="250" alt="icone">
+                        </div>
+
+                    </div>          
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+    <!--AQUI FICA O RODAPÉ DO SITE-->
+    <footer id="footer" class="footer navbar-fixed-bottom bg-dark">
+        <div class="container">
+            <div class="row">    
+                    <div class="col-sm-6 text-primary justify-content-center mt-3">
+
+                            Página carregada por servidor WEB feito em Python!
+                            <div class="row justify-content-center">
+                                <a class="icone" href="https://www.python.org" target="_blank">
+                                    <img src="images/pythonLogo.png" width="150" height="50" alt="python">
+                                </a>
+                            </div>
+                            Instituição:
+                            <p class="text-light h6">Escola Politécnica de Pernambuco - POLI/UPE</p>
+                            <p class="text-light h6">Graduação em Engenharia de Computação - ECOMP</p>
+                    </div>
+                    <div class="col-sm-6 justify-content-center mt-3">
+                            <div class="text-primary">
+                                <h5 class="text-primary">
+                                    Desenvolvido por:
+                                    <p class="text-light h6">Matheus Phelipe, Murilo Stodolni, Nilton Vieira e  Richard Jeremias
+                                    </p>
+
+                                    Disciplina:
+                                    <p class="text-light h6">Redes de Computadores 1</p>
+                                    Professor:
+                                    <p class="text-light h6">Edison de Queiroz Albuquerque</p>
+                                </h4>
+                            </div>
+                    </div>   
+            </div>     
+        </div>
+        <div class="row justify-content-center bg-dark text-light">Feito comㅤ<i class="em em-heart"></i></div>
+        
+    </footer>
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/teste.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js" ></script>
+  </body>
+</html>
